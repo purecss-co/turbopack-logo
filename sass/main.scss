@@ -2,7 +2,8 @@
 $bg-color: #000;
 $icon-blue-color: #0096ff;
 $icon-red-color: #ff1e56;
-$white-color: #fff;
+$icon-white-color: #fff;
+$text-color: #fff;
 
 html,
 body {
@@ -146,7 +147,7 @@ body {
   &-6 {
     width: 14.1vmin;
     height: 14.55vmin;
-    background: $white-color;
+    background: $icon-white-color;
     top: -8.8vmin;
     left: -14.25vmin;
     transform: skewY(29.8deg);
@@ -155,7 +156,7 @@ body {
   &-7 {
     width: 14.85vmin;
     height: 14.05vmin;
-    background: $white-color;
+    background: $icon-white-color;
     top: -35vmin;
     left: 1.05vmin;
     transform: rotateZ(150deg) skewX(30.2deg);
@@ -165,14 +166,14 @@ body {
 .t {
   width: 8.65vmin;
   height: 1.8vmin;
-  background: $white-color;
+  background: $text-color;
   top: 54.1vmin;
   left: -73.15vmin;
 
   &::before {
     width: 2.1vmin;
     height: 7.3vmin;
-    background: $white-color;
+    background: $text-color;
     top: 0.5vmin;
     left: 3.25vmin;
   }
@@ -181,7 +182,7 @@ body {
 .u {
   width: 8.2vmin;
   height: 7.9vmin;
-  background: $white-color;
+  background: $text-color;
   top: 60.2vmin;
   left: -54.85vmin;
   border-radius: 0 0 3.5vmin 3.5vmin;
@@ -209,14 +210,14 @@ body {
   &-1 {
     width: 2.1vmin;
     height: 7.8vmin;
-    background: $white-color;
+    background: $text-color;
     top: 60.1vmin;
     left: -42.35vmin;
 
     &::before {
       width: 8.15vmin;
       height: 5.2vmin;
-      background: $white-color;
+      background: $text-color;
       border-radius: 0 2.9vmin 2.9vmin 0;
     }
 
@@ -233,7 +234,7 @@ body {
   &-2 {
     width: 2.05vmin;
     height: 4.7vmin;
-    background: $white-color;
+    background: $text-color;
     top: 64vmin;
     left: -32.8vmin;
     transform: rotate(-33deg) skewY(33deg);
@@ -244,14 +245,14 @@ body {
   &-1 {
     width: 2.1vmin;
     height: 7.8vmin;
-    background: $white-color;
+    background: $text-color;
     top: 60.1vmin;
     left: -24.15vmin;
 
     &::before {
       width: 8.05vmin;
       height: 4.05vmin;
-      background: $white-color;
+      background: $text-color;
       border-radius: 0 3.6vmin 3.6vmin 0;
     }
 
@@ -268,7 +269,7 @@ body {
   &-2 {
     width: 8.05vmin;
     height: 4.25vmin;
-    background: $white-color;
+    background: $text-color;
     top: 63.65vmin;
     left: -17.8vmin;
     border-radius: 0 3.6vmin 3.6vmin 0;
@@ -287,7 +288,7 @@ body {
 .o {
   width: 9.4vmin;
   height: 8.05vmin;
-  background: $white-color;
+  background: $text-color;
   top: 60.2vmin;
   left: 0.5vmin;
   border-radius: 49%;
@@ -305,14 +306,14 @@ body {
 .p {
   width: 2.1vmin;
   height: 7.8vmin;
-  background: $white-color;
+  background: $text-color;
   top: 60.1vmin;
   left: 13.7vmin;
 
   &::before {
     width: 8.15vmin;
     height: 5.3vmin;
-    background: $white-color;
+    background: $text-color;
     border-radius: 0 2.9vmin 2.9vmin 0;
   }
 
@@ -329,7 +330,7 @@ body {
 .a {
   width: 2.2vmin;
   height: 7.8vmin;
-  background: $white-color;
+  background: $text-color;
   top: 60.1vmin;
   left: 31.8vmin;
   transform: skewX(-25.5deg);
@@ -337,7 +338,7 @@ body {
   &::before {
     width: 2.2vmin;
     height: 7.8vmin;
-    background: $white-color;
+    background: $text-color;
     left: 4vmin;
     transform: skewX(44deg);
   }
@@ -345,7 +346,7 @@ body {
   &::after {
     width: 5vmin;
     height: 1.65vmin;
-    background: $white-color;
+    background: $text-color;
     top: 4.65vmin;
     left: 1.4vmin;
     transform: skewX(25.5deg);
@@ -356,7 +357,7 @@ body {
   &-1 {
     width: 9.15vmin;
     height: 8.1vmin;
-    background: $white-color;
+    background: $text-color;
     top: 60.1vmin;
     left: 54.05vmin;
     border-radius: 49%;
@@ -402,14 +403,14 @@ body {
 .k {
   width: 2.1vmin;
   height: 7.8vmin;
-  background: $white-color;
+  background: $text-color;
   top: 60.1vmin;
   left: 66.2vmin;
 
   &::before {
     width: 1.95vmin;
     height: 8.8vmin;
-    background: $white-color;
+    background: $text-color;
     top: -1.45vmin;
     left: 2.9vmin;
     transform: rotate(48deg) skewY(-48deg);
@@ -419,7 +420,7 @@ body {
   &::after {
     width: 2.05vmin;
     height: 6.3vmin;
-    background: $white-color;
+    background: $text-color;
     top: 2.25vmin;
     left: 4.5vmin;
     transform: rotate(-40deg) skewY(40deg);
